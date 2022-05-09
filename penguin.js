@@ -26,11 +26,11 @@ is_yeti = shuffle_images()
 
     function display_image(i) {
         if(is_yeti[i] == true) {
-            document.getElementById("penguin"+i).src = "images/yeti.png";
+            document.getElementById("penguin"+i).src = "yeti.png";
             return setTimeout(over, 800)
         }
         else {
-            document.getElementById("penguin"+i).src = "images/penguin.png";
+            document.getElementById("penguin"+i).src = "penguin.png";
         }
     }
 
