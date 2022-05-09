@@ -34,7 +34,7 @@ img {
 }
 
 img:hover {
-    background: url("images/hover.jpg") no-repeat right;
+    background: url("hover.jpg") no-repeat right;
     cursor: pointer;
 }
 
