@@ -1,0 +1,44 @@
+body {
+    background: black;
+    margin: 0;
+}
+
+main, .title, .clock, #day {
+    display: flex;
+}
+
+main {
+    flex-direction: column;
+    color: #02ff9c;
+    align-items: center;
+    height: 100vh;
+    justify-content: flex-start;
+    grid-row-gap: 20%;
+}
+
+.title {
+    margin-top: 30px;
+    align-items: flex-start;
+    font-size: 30px;
+    font-family: 'Courier New', monospace;
+}
+
+.clock {
+    font-family: 'Orbitron', sans-serif;
+}
+
+#day {
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#hour, #minute, #seconds {
+    font-size: 120px;
+}
+
+#hour::after, #minute::after {
+    content: ' :';
+}
